@@ -7,14 +7,11 @@ alarm in case of high temperature continuously.
 
 DONE BY 
 
-ROLLNO	:	
-911719104002
+ROLLNO	: 911719104002
 
-BRANCH	:	
-Computer Science Engineering
+BRANCH	: Computer Science Engineering
 
-COLLEGE	:	
-MOUNT ZION COLLEGE OF ENGINEERING AND TECHNOLOGY
+COLLEGE	: MOUNT ZION COLLEGE OF ENGINEERING AND TECHNOLOGY
 
 '''
 #import the necessary package!
