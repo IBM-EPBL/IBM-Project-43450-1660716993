@@ -1,9 +1,11 @@
 #traffic light for raspberry pi simlulating in pycham with GUI
+
+
 import turtle
 import time
 wn= turtle.getscreen()
 wn.title("Abdul Rahman Assignment 3")
-wn.bgcolor("lightBlue")
+wn.bgcolor("black")
 
 #gui interfrace
 pen= turtle.Turtle()
