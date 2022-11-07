@@ -2,8 +2,8 @@
 import turtle
 import time
 wn= turtle.getscreen()
-wn.title("Stoplight By Gogulkrish")
-wn.bgcolor("black")
+wn.title("Abdul Rahman Assignment 3")
+wn.bgcolor("lightBlue")
 
 #gui interfrace
 pen= turtle.Turtle()
