@@ -1,6 +1,7 @@
 #traffic light for raspberry pi simlulating in pycham with GUI
 
 
+
 import turtle
 import time
 wn= turtle.getscreen()
