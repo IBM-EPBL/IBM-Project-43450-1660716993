@@ -1,75 +1,147 @@
-#traffic light for raspberry pi simlulating in pycham with GUI
+/*
+Done By Abdul Rahman S
+
+
+Assignment 4 
+
+Write code and connections in wokwi for the ultrasonic sensor.
+Whenever the distance is less than 100 cms send an "alert" to the IBM cloud and display in
+the device recent events.
+Upload document with wokwi share link and images of IBM cloud
+
+*/
 
 
 
-import turtle
-import time
-wn= turtle.getscreen()
-wn.title("Abdul Rahman Assignment 3")
-wn.bgcolor("black")
-
-#gui interfrace
-pen= turtle.Turtle()
-pen.color("Yellow")
-pen.width(4)
-pen.hideturtle()
-pen.penup()
-pen.goto(-30, 60)
-pen.pendown()
-pen.fd(60)
-pen.rt(90)
-pen.fd(120)
-pen.rt(90)
-pen.fd(60)
-pen.rt(90)
-pen.fd(120)
+#include <WiFi.h>
+#include <PubSubClient.h>
+WiFiClient wifiClient;
+String data3;
+#define ORG "38552b"
+#define DEVICE_TYPE "NodeMcu"
+#define DEVICE_ID "Assignment4"
+#define TOKEN "91119104002"
+#define speed 0.034 
+#define led 14
+char server[] = ORG ".messaging.internetofthings.ibmcloud.com";
+char publishTopic[] = "iot-2/evt/Abdul/fmt/json";
+char topic[] = "iot-2/cmd/home/fmt/String";  
+char authMethod[] = "use-token-auth";
+char token[] = TOKEN;
+char clientId[] = "d:" ORG ":" DEVICE_TYPE ":" DEVICE_ID;
+PubSubClient client(server, 1883, wifiClient);
+void publishData();
 
 
+const int trigpin=5;
+const int echopin=18;
+String command;
+String data="";
 
-#red light
-red_light =turtle.Turtle()
-red_light.shape("circle")
-red_light.color("grey")
-red_light.penup()
-red_light.goto(0, 40)
-
-#Yellow light
-yellow_light =turtle.Turtle()
-yellow_light.shape("circle")
-yellow_light.color("grey")
-yellow_light.penup()
-yellow_light.goto(0, 0)
-
-#Green light
-green_light =turtle.Turtle()
-green_light.shape("circle")
-
-green_light.color("grey")
-green_light.penup()
-green_light.goto(0, -40)
+long duration;
+float dist;
 
 
-while True:
-    yellow_light.color("grey")
-    red_light.color("red")
-    print("Red light Blinked - Now vehicle Stop behind zebra cross..")
-    print("Blink!!")
-    time.sleep(2)
-    print("Blink!!")
 
-    red_light.color("grey")
-    green_light.color("green")
-    print("Green light on- Now vehicle can go..")
-    print("Blink!!")
-    time.sleep(3)
-    print("Blink!!")
+void setup()
+{
+  Serial.begin(115200);
+  pinMode(led, OUTPUT);
+  pinMode(trigpin, OUTPUT);
+  pinMode(echopin, INPUT);
+  wifiConnect();
+  mqttConnect();
+}
 
-    green_light.color("grey")
-    yellow_light.color("yellow")
-    print("Yellow light Blinked- Now vehicle Ready to go..")
-    print("Blink!!")
-    time.sleep(1)
-    print("Blink!!")
-wn.mainloop()
+void loop() {
+  bool isNearby = dist < 100;
+  digitalWrite(led, isNearby);
 
+  publishData();
+  delay(500);
 
+  if (!client.loop()) {
+    mqttConnect();
+  }
+}
+
+void wifiConnect() {
+  Serial.print("Connecting to "); Serial.print("Wifi");
+  WiFi.begin("Wokwi-GUEST", "", 6);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.print("WiFi connected, IP address: "); Serial.println(WiFi.localIP());
+}
+
+void mqttConnect() {
+  if (!client.connected()) {
+    Serial.print("Reconnecting MQTT client to "); Serial.println(server);
+    while (!client.connect(clientId, authMethod, token)) {
+      Serial.print(".");
+      delay(500);
+    }
+    initManagedDevice();
+    Serial.println();
+  }
+}
+
+void initManagedDevice() {
+  if (client.subscribe(topic)) {
+    // Serial.println(client.subscribe(topic));
+    Serial.println("IBM subscribe to cmd OK");
+  } else {
+    Serial.println("subscribe to cmd FAILED");
+  }
+}
+void publishData()
+{
+  digitalWrite(trigpin,LOW);
+  digitalWrite(trigpin,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigpin,LOW);
+  duration=pulseIn(echopin,HIGH);
+  dist=duration*speed/2;
+  if(dist<100){
+    String payload = "{\"Alert Distance\":";
+    payload += dist;
+    payload += "}";
+
+    Serial.print("\n");
+    Serial.print("Sending payload: ");
+    Serial.println(payload);
+      if(client.publish(publishTopic, (char*) payload.c_str())) {
+      Serial.println("Warning crosses 110cm -- it automaticaly of the loop");
+      digitalWrite(led,HIGH);
+    }
+     
+  }
+    if(dist>101 && dist<111){
+    String payload = "{\"Normal Distance\":";
+    payload += dist;
+    payload += "}";
+
+    Serial.print("\n");
+    Serial.print("Sending payload: ");
+    Serial.println(payload);
+   
+    }
+     
+  }  
+  
+
+  
+  void callback(char* subscribeTopic, byte* payload, unsigned int payloadLength){
+  Serial.print("callback invoked for topic:");
+  Serial.println(subscribeTopic);
+  for(int i=0; i<payloadLength; i++){
+    dist += (char)payload[i];
+  }
+  Serial.println("data:"+ data3);
+  if(data3=="lighton"){
+    Serial.println(data3);
+    digitalWrite(led,HIGH);
+  }
+  data3="";
+}
