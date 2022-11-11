@@ -1,0 +1,322 @@
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":90.00}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":90.03}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.96}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.96}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.98}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.93}
+Warning crosses 110cm -- it automaticaly of the loop
+Reconnecting MQTT client to 1qvr56.messaging.internetofthings.ibmcloud.com
+IBM subscribe to cmd OK
+
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+Reconnecting MQTT client to 1qvr56.messaging.internetofthings.ibmcloud.com
+IBM subscribe to cmd OK
+
+
+Sending payload: {"Alert Distance":89.98}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.96}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+Reconnecting MQTT client to 1qvr56.messaging.internetofthings.ibmcloud.com
+IBM subscribe to cmd OK
+
+
+Sending payload: {"Alert Distance":90.01}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.98}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.96}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.98}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.98}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.96}
+Warning crosses 110cm -- it automaticaly of the loop
+
+Sending payload: {"Alert Distance":89.95}
+Reconnecting MQTT client to 1qvr56.messaging.internetofthings.ibmcloud.com
+......................
