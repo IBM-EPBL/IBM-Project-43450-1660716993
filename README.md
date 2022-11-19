@@ -1,9 +1,6 @@
 "# IBM-Project-43450-1660716993" 
 <div align="center">
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 
 <!-- PROJECT LOGO -->
 
