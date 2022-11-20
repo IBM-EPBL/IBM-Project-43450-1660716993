@@ -1,0 +1,41 @@
+import matlab.net.*
+import matlab.net.http.*
+[X,T] = thingSpeakRead(1418999,'Fields',[1],'NumPoints',85)
+
+T=num2cell(X');
+trainFcn = 'trainlm';
+feedbackDelays = 1:10;
+hiddenLayerSize = 10;
+net = narnet(feedbackDelays,hiddenLayerSize,'open',trainFcn);
+
+[x,xi,ai,t] = preparets(net,{},{},T);
+
+net.divideParam.trainRatio = 70/100;
+net.divideParam.valRatio = 15/100;
+net.divideParam.testRatio = 15/100;
+net.trainParam.showWindow = 0;
+
+[net,tr] = train(net,x,t,xi,ai);
+
+
+y = net(x,xi,ai);
+e = gsubtract(t,y);
+performance = perform(net,t,y);
+
+nets = removedelay(net);
+nets.name = [net.name ' - Predict One Step Ahead'];
+
+[xs,xis,ais,ts] = preparets(nets,{},{},T);
+ys = nets(xs,xis,ais);
+stepAheadPerformance = perform(nets,ts,ys);
+b = stepAheadPerformance / 10^floor(log10(stepAheadPerformance))
+var=b;
+
+
+r = RequestMessage;
+str1='https://node-red-xktnf-2022-10-10.eu-gb.mybluemix.net/updateforecast?val='
+str2=string(var)
+str=append(str1,str2)
+uri = URI(str);
+resp = send(r,uri);
+status = resp.StatusCodes
