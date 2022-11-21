@@ -45,7 +45,7 @@ IBM Cloud,IBM Cloud Object Storage,Python,IBM Watson IoT Platform,Node-RED servi
 
 
 
-![Snake animation](https://github.com/gogulkrish/snak-/blob/main/rafaballerini-output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/abdrx/snake/blob/main/rafaballerini-output/github-contribution-grid-snake.svg)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
