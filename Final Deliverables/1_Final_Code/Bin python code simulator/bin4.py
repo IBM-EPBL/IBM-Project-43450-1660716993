@@ -8,11 +8,11 @@ import sys
 
 # watson device details
 
-organization = "1qvr56"
-devicType =  "NODE"
-deviceId = "12345"
-authMethod= "token"
-authToken= "5N959hF&_r_G-!rjPy"
+organization = "38552b"
+devicType =  "NodeMcu"
+deviceId = "Assignment4"
+authMethod= "use-token-auth"
+authToken= "91119104002"
 
 #generate random values for randomo variables (temperature&humidity)
 
