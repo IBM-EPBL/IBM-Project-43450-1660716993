@@ -1,0 +1,2 @@
+2022-11-22 21:59:17,249   ibmiotf.device.Client      CRITICAL Not authorized: s (d:1qvr56:MZ2:SMARTBINID2, use-token-auth, 123456789)
+2022-11-22 21:59:53,505   ibmiotf.device.Client      CRITICAL Not authorized: s (d:1qvr56:MZ2:SMARTBINID2, use-token-auth, 123456789)
