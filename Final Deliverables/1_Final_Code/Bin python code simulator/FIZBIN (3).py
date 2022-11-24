@@ -8,11 +8,11 @@ import sys
 
 # watson device details
 
-organization = "38552b"
-devicType =  "NodeMcu"
-deviceId = "Assignment4"
-authMethod= "use-token-auth"
-authToken= "91119104002"
+organization = "1qvr56"
+devicType =  "MZ"
+deviceId = "SMARTBINZID3"
+authMethod= "token"
+authToken= "123456789"
 
 #generate random values for randomo variables (temperature&humidity)
 
@@ -53,11 +53,11 @@ while True:
           load = "0 %"
                 
     if distance < 15:
-          dist = 'Risk warning:' 'Dumpster poundage getting high, Time to collect :) 90 %'
+          dist = 'Risk warning:' 'Mz Smart Bin poundage getting high, Time to collect :) 90 %'
         
                 
     elif distance < 40 and distance >16:
-          dist = 'Risk warning:' 'dumpster is above 60%'
+          dist = 'Risk warning:' 'Mz Smart Bin is above 60%'
                 
     elif distance < 60 and distance > 41:
           dist = 'Risk warning:' '40 %'
@@ -67,22 +67,22 @@ while True:
                 
                 
     if load == "90 %" or distance == "90 %":
-          warn  = 'alert :' 'Risk Warning: Dumpster poundage getting high, Time to collect :)'
+          warn  = 'alert :' ' Mz Smart Bin poundage getting high, Time to collect :)'
                 
     elif load == "60 %" or distance == "60 %":
                 
-          warn = 'alert :' 'dumpster is above 60%'
+          warn = 'alert :' 'Mz Smart Bin is above 60%'
     else :
           warn = 'alert :' 'No need to collect right now '       
-    
-    def myOnPublishCallback(lat=10.939091,long=75.135731):
-        print("Puliyur, Karur")
+    def myOnPublishCallback(lat=10.294847 ,long= 78.763668):
+        print("Mz Canteen")
         print("published distance = %s " %distance,"loadcell:%s " %loadcell,"lon = %s " %long,"lat = %s" %lat)
+    
         print(load)
         print(dist)
         print(warn)
         
-    time.sleep(5)
+    time.sleep(10)
    
    
     success=deviceCli.publishEvent ("IoTSensor","json",warn,qos=0,on_publish= myOnPublishCallback)
@@ -93,7 +93,7 @@ while True:
 
     if not success:
         print("not connected to ibmiot")
-    time.sleep(5)
+    time.sleep(30)
    
            
    
@@ -101,3 +101,4 @@ while True:
     deviceCli.commandCallback=myCommandCallback
 #disconnect the device
 deviceCli.disconnect()
+
