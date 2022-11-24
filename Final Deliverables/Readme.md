@@ -4,9 +4,15 @@
 
 ###  * The Final Deliverables Phase consists of the the following details: *
 
-* Project Report 
-* Test Report    
-* Execution Screenshots
-* Wokwi Project Link - https://wokwi.com/projects/347376419979919956
-* Node RED Dashboard Link - https://node-red-wjldy-2022-11-05.au-syd.mybluemix.net/ui/#!/0?socketid=PyqH93j_A9ODVDSLAAAB
-* Demo Link      - https://www.youtube.com/watch?v=qPJWVnoepYM
+GitHub Link:
+
+https://github.com/IBM-EPBL/IBM-Project-43450-1660716993
+
+Flow Link: 
+http://169.51.203.62:30317/red/#flow/54ba2d7691a78b33
+
+UI Link :
+http://169.51.203.62:30317/ui/#!/0?socketid=pf2ftzL1oYb5FdzxAAAZ
+
+Video Demo Link: 
+https://drive.google.com/drive/folders/1FzMRA4ZXVB3xrDtGUMBc1cDR2dqyUvHk?usp=sharing
