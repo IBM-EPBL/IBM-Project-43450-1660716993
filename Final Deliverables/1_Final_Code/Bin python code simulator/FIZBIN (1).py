@@ -76,7 +76,7 @@ while True:
           warn = 'alert :' 'PUSHED SUCCESSFULLY IBM '       
     
     def myOnPublishCallback(lat=10.294847 ,long= 78.763668):
-        print("Mz Car Main Gate")
+        print("Mz Car Enterance Gate")
         print("published distance = %s " %distance,"loadcell:%s " %loadcell,"lon = %s " %long,"lat = %s" %lat)
         print(load)
         print(dist)
